@@ -1,4 +1,4 @@
-# CurriculumVit
+# CurriculumVitae
 He realizado una hoja de vida en formato web, subida en Heroku
 
 ## About
