@@ -1,0 +1,88 @@
+#my-nav-side{
+	bottom: 0;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	overflow-x: hidden;
+	transition: 0.8s;
+	top: 1px;
+	display: none;
+	background-color:#c5c5c5;
+}
+.nav-link{
+    float: left;
+    color: black; 
+}
+.nav-link:hover{
+    color:rgb(114, 44, 44);
+}
+.vertical-nav{
+	float: left;
+	margin-top: 58px;
+}
+.nav{
+    float: left;
+    text-align: left;
+}
+.closebtn{
+	float: right;
+	padding: 15px;
+	font-size: 30px;
+	color: black;
+}
+.closebtn:hover{
+	color: darkred;
+}
+#main-content{
+	transition: margin-left .8s;
+	padding: 20px;
+	/*Image from : https://unsplash.com/photos/TOs2T900bzs*/
+	background-image: url('../img/background.png');
+	background-position: center;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+section{
+	margin: 58px 80px;
+	opacity: 0.89;
+	border-radius: 5%;
+}
+article{
+	margin: 30px;
+	padding: 20px 60px;
+	border-left: solid #d88585 5px;
+	border-radius: 0%;
+	text-align: justify;
+	background-color: #e5e5e5;
+	opacity: 0.9;
+}
+#footer{
+	background-color: black;
+	color: white;
+	padding: 5px 150px;
+	transition: margin-left .8s;
+	bottom: 0;
+	position: relative;
+}
+::selection{
+	color: #e5e5e5;
+	background-color: rgb(114, 44, 44);
+}
+@media (max-width: 575px){
+	.navbar {
+		font-size: 0.85em;
+	}
+	.vertical-nav section{
+		margin-top: 163px;
+	}
+}
+#photo{
+	margin-left: 20px;
+}
+.image-shield{
+	border-radius: 50px;
+}
+#Phone, #E-Mail, #Others{
+	margin: 90px 300px;
+}
